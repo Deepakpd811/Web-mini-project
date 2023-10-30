@@ -1,0 +1,50 @@
+.cointainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: cyan;
+    height: 500px;
+    width: 700px;
+    padding: 20px;
+    font-size: 25px;
+    margin: 0 auto;
+    
+    
+}
+h1,p{
+    text-align: center;
+    margin: 10px;
+    
+    
+}
+
+button{
+    margin: auto;
+    width: 150px;
+    height: 40px;
+    margin: 5px;
+    background-color: rgb(12, 110, 49);
+    color: white;
+    font-size: 20px;
+}
+.red{
+    color: white;
+    /* //border: 2px solid rgb(232, 69, 69); */
+    background-color: rgb(230, 31, 31);
+    border-radius: 5px;
+    padding: 5px;
+}
+.green{
+    color: white;
+    /* //border: 2px solid rgb(232, 69, 69); */
+    background-color: rgb(10, 229, 76);
+    border-radius: 5px;
+    padding: 5px;
+}
+.black{
+    color: rgb(255, 244, 244);
+    /* //border: 2px solid rgb(232, 69, 69); */
+    background-color: rgb(3, 26, 10);
+    border-radius: 5px;
+    padding: 5px;
+}
