@@ -42,7 +42,7 @@ function rendergame(){
     
     if(sum <21){
         paraEl.classList.add("black")
-       paraEl.textContent= "you need to draw a card"
+        paraEl.textContent= "you need to draw a card"
     }else if(sum === 21){
        paraEl.textContent = "you won  the game"
        
