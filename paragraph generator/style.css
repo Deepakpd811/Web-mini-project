@@ -1,0 +1,47 @@
+*{
+margin: 0px;
+}
+
+.section-center{
+    width: 60%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+.section-center h3{
+    font-size: 40px;
+    
+}
+
+.lorem-form{
+    font-size: 40px;
+    margin-top: 20px;
+   
+}
+p{
+    font-size: 24px;
+    padding: 20px;
+}
+input{
+    width: 55px;
+    height: 25px;
+    padding: 5px;
+    background-color: rgb(241, 238, 232);
+    border: 5px solid rgb(239, 233, 233);
+    border-radius: 5px;
+    font-size: 30px;
+}
+#btn{
+    padding: 5px;
+    /* width: 80px; */
+    background-color: rgb(18, 116, 116);
+    color:  white;
+    border: 5px solid rgb(18, 116, 116);
+    border-radius: 5px;
+    font-size: 20px;
+    
+}
+#btn:hover{
+    background-color:  rgba(18, 116, 116, 0.683);
+    transition: 1100ms;
+}
