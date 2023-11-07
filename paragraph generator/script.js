@@ -71,7 +71,7 @@ const loremForm = document.querySelector(".lorem-form");
 const input = document.querySelector("#amount");
 const result = document.querySelector(".lorem-text");
 
-loremForm.addEventListener("click", function (e) {
+loremForm.addEventListener("click", (e)=> {
   const value = input.value
   const random = Math.floor(Math.random() * para.length);
 
@@ -81,7 +81,7 @@ loremForm.addEventListener("click", function (e) {
     let newpara = para.slice(0, value);
 
     let x = newpara
-      .map(function (item) {
+      .map((item)=> {
         return (result.innerHTML = `<p>${item}</p>`);
       })
       .join("");
